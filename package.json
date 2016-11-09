@@ -1,22 +1,35 @@
 {
-  "name": "vue-loading-screen",
-  "version": "0.0.1",
-  "description": "A simple loading screen component for promises.",
-  "main": "src/LoadingScreen.vue",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/bulv1ne/vue-loading-screen.git"
-  },
+  "name": "vue-loading-screen-demo",
+  "description": "Demo for vue-loading-screen",
   "author": "Niels Lemmens <draso.odin@gmail.com>",
-  "license": "MIT",
-  "peerDependencies": {
-    "vue": "2.0.x"
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
+    "dev-build": "cross-env NODE_ENV=development webpack --progress --watch",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "keywords": [
-    "vue",
-    "loading"
-  ]
+  "dependencies": {
+    "chance": "^1.0.4",
+    "vue": "^2.0.1",
+    "vue-loading-screen": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.7.1",
+    "eslint-friendly-formatter": "^2.0.5",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-html": "^1.3.0",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-import-resolver-webpack": "^0.6.0",
+    "eslint-plugin-import": "^1.16.0",
+    "file-loader": "^0.9.0",
+    "vue-loader": "^9.4.0",
+    "webpack": "2.1.0-beta.22",
+    "webpack-dev-server": "^2.1.0-beta.0"
+  }
 }
