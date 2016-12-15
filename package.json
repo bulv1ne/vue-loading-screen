@@ -1,14 +1,14 @@
 {
   "name": "vue-loading-screen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple loading screen component for promises.",
   "main": "src/LoadingScreen.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/bulv1ne/vue-loading-screen.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bulv1ne/vue-loading-screen.git"
   },
   "author": "Niels Lemmens <draso.odin@gmail.com>",
   "license": "MIT",
