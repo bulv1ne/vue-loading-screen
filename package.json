@@ -1,6 +1,6 @@
 {
   "name": "vue-loading-screen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple loading screen component for promises.",
   "main": "src/LoadingScreen.vue",
   "scripts": {
